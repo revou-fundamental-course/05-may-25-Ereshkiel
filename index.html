@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naturish - E-Groceries Shop</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header" id="home">
+    <div class="container">
+      <div class="nav-container">
+        <a href="#" class="logo">Naturish</a>
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#packages" class="nav-link">Our Package</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Call Us</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="banner-section">
+    <div class="banner-slider">
+      <div class="slide active">
+        <div class="container">
+          <div class="banner-content">
+            <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            <p>Every day with fresh ingredients</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="banner-content">
+            <h1>Fresh Produce Delivered To Your Door</h1>
+            <p>Quality groceries at your fingertips</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="banner-content">
+            <h1>Organic & Sustainable Grocery Options</h1>
+            <p>Supporting local farmers and eco-friendly practices</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section" id="contact">
+    <div class="container">
+      <div class="info-grid">
+        <div class="info-image">
+          <div class="placeholder-img"><img src="../image/groceries1.jpg"></div>
+          <p class="image-caption">"Shop less but shop smarter with Naturish"</p>
+          
+          <div class="dynamic-insights">
+            <h3>Dynamic Insights</h3>
+            <p>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service in detail.</p>
+            
+            <div class="insights-item">
+              <div class="insight-number">01</div>
+              <div class="insight-content">
+                <h4>Your first feature</h4>
+                <p>written in the form of a benefit statement.</p>
+              </div>
+            </div>
+            
+            <div class="insights-item">
+              <div class="insight-number">02</div>
+              <div class="insight-content">
+                <h4>Your second feature</h4>
+                <p>reinforce the value of a benefit statement.</p>
+              </div>
+            </div>
+            
+            <div class="insights-item">
+              <div class="insight-number">03</div>
+              <div class="insight-content">
+                <h4>Your third feature</h4>
+                <p>written in the form of a benefit statement.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <h3>Contact Us</h3>
+            <p>Questions, comments? You name it, we want to talk about it.</p>
+            
+            <form id="inquiryForm">
+              <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Enter your full name" required>
+                <span class="error-message" id="nameError"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" placeholder="yourname@example.com" required>
+                <span class="error-message" id="emailError"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="grocery">What are you interested in?</label>
+                <select id="grocery" required>
+                  <option value="">Select a package</option>
+                  <option value="fresh-vegetable">Fresh Vegetable</option>
+                  <option value="fresh-fruit">Fresh Fruit</option>
+                  <option value="instant-delivery">Instant Delivery</option>
+                  <option value="kitchen-ingredient">Kitchen Ingredient</option>
+                  <option value="kitchen-set">Kitchen Set</option>
+                  <option value="bundle-set">Bundle Set</option>
+                </select>
+                <span class="error-message" id="groceryError"></span>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">SEND</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="packages-section" id="packages">
+    <div class="container">
+      <h2 class="section-title">Our Package</h2>
+      
+      <div class="package-grid">
+        <div class="package-card">
+          <div class="package-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 3C16.4183 3 20 6.58172 20 11C20 15.4183 16.4183 19 12 19C7.58172 19 4 15.4183 4 11C4 6.58172 7.58172 3 12 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 15V17M10 7.5C10 6.67157 10.6716 6 11.5 6H12.5C13.3284 6 14 6.67157 14 7.5C14 8.32843 13.3284 9 12.5 9H11.5C10.6716 9 10 9.67157 10 10.5C10 11.3284 10.6716 12 11.5 12H12.5C13.3284 12 14 11.3284 14 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 21.5V19C4 18.4477 4.44772 18 5 18H19C19.5523 18 20 18.4477 20 19V21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Fresh Vegetable</h3>
+          <p>Garden fresh vegetables sourced directly from local farms. Nutritious and delicious.</p>
+        </div>
+        
+        <div class="package-card">
+          <div class="package-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 8V13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15 11L12 14L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Fresh Fruit</h3>
+          <p>Juicy tropical fruits to satisfy your sweet cravings, straight from the orchards.</p>
+        </div>
+        
+        <div class="package-card">
+          <div class="package-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22 12H19L14 18H10L5 12H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5.45 5.11L2 12V14C2 15.1046 2.89543 16 4 16H20C21.1046 16 22 15.1046 22 14V12L18.55 5.11C18.3844 4.77679 18.1292 4.49637 17.813 4.30028C17.4967 4.10419 17.1321 4.0002 16.76 4H7.24C6.86792 4.0002 6.50326 4.10419 6.18704 4.30028C5.87083 4.49637 5.61558 4.77679 5.45 5.11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 16V20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 20H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Instant Delivery</h3>
+          <p>Quick doorstep delivery right to your home. Always fresh, always on time.</p>
+        </div>
+        
+        <div class="package-card">
+          <div class="package-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4.5V19.5M12 4.5L8 8.5M12 4.5L16 8.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 15V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Kitchen Ingredient</h3>
+          <p>Essential spices and ingredients for your everyday cooking needs and cuisines.</p>
+        </div>
+        
+        <div class="package-card">
+          <div class="package-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 5H6C4.89543 5 4 5.89543 4 7V19C4 20.1046 4.89543 21 6 21H16C17.1046 21 18 20.1046 18 19V18M8 5V7H16C17.1046 7 18 6.10457 18 5V4C18 2.89543 17.1046 2 16 2H10C8.89543 2 8 2.89543 8 4V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M10 13L20 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M18 5L19 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Kitchen Set</h3>
+          <p>Quality cooking tools and accessories to make your cooking experience better.</p>
+        </div>
+        
+        <div class="package-card">
+          <div class="package-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 21H12M16 21H12M12 21V17M12 17H19C20.1046 17 21 16.1046 21 15V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V15C3 16.1046 3.89543 17 5 17H12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Bundle Set</h3>
+          <p>Ready-to-cook meal packages with pre-measured ingredients and recipes for you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Your Closing Argument Headline</h2>
+      <p>Experience food shopping like never before with FreshHarvest, delivering quality grocery items directly to your door. Select from our curated packages, customize your order, and welcome a world of fresh possibilities.</p>
+      <button class="btn btn-primary cta-btn">CALL TO ACTION</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="logo">Naturish</div>
+      <p>Copyright © 2025 Naturish. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
